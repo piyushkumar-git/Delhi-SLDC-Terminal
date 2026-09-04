@@ -23,13 +23,21 @@ st.markdown("""
     /* Sidebar Compacting */
     section[data-testid="stSidebar"] .stMarkdown h3 {
         font-size: 0.9rem !important;
-        margin-bottom: -15px !important;
+        margin-bottom: 8px !important;
         padding-top: 10px !important;
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
-    section[data-testid="stSidebar"] .stSlider { margin-bottom: -15px !important; }
-    section[data-testid="stSidebar"] .stButton > button { margin-top: -5px !important; }
+    section[data-testid="stSidebar"] .stSlider { 
+        margin-bottom: -10px !important; 
+    }
+    section[data-testid="stSidebar"] .stButton {
+        margin-top: 6px !important;
+        margin-bottom: 6px !important;
+    }
+    section[data-testid="stSidebar"] .stButton > button { 
+        margin-top: 0px !important; 
+    }
     
     /* Typography sizing (keeps native colors) */
     [data-testid="stMetricValue"] { font-size: 2.1rem !important; font-weight: 700; }
